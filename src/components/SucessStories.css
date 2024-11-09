@@ -1,0 +1,77 @@
+/* SuccessStories.css */
+
+.story_container {
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+  height: 100%;
+  width: 80%;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px; 
+  box-sizing: border-box; 
+  
+}
+
+.box {
+  background-color: #17632a;
+  height: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.box .image_container {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6EDE8A;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.image_container img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.box .content {
+  padding: 20px;
+  text-align: justify;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: black; 
+}
+
+
+
+

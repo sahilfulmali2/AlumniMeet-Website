@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: #208b3a;
   height: 25vh;
 }
 
@@ -16,8 +16,8 @@
   margin-top: 5px;
   width: 150px;
   padding: 1px 3px;
-  background-color: blueviolet;
-  border-radius: 15px;
+  background-color: #10451d;
+  border-radius: 12px;
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
 }

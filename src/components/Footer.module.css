@@ -1,0 +1,55 @@
+.footer_container {
+  background-color: #208b3a;
+  height: 40vh;
+  padding: 20px ;
+}
+.footer_box {
+  height: calc(40vh - 40px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.upper_box {
+  height: 80%;
+  background-color: #10451d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.upper_box img {
+  height: 100px;
+  
+}
+.college_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.college_name h1 {
+  font-size:medium;
+  margin-bottom: 3px;
+}
+.college_name h2 {
+  font-size:smaller;
+}
+
+.college_name a {
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+}
+
+
+.lower_box {
+  height: 20%;
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ font-size: x-small;
+}
