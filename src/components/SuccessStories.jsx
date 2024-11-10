@@ -6,26 +6,30 @@ import "./SucessStories.css";
 
 const Stories = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "20px",
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
-        breakpoint: 1024, 
+        breakpoint: 1224,
         settings: {
-          slidesToShow: 2, 
+          slidesToShow: 2,
           slidesToScroll: 1,
+          dots: false,
         },
       },
       {
-        breakpoint: 600, 
+        breakpoint: 600,
         settings: {
-          slidesToShow: 1, 
+          slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],
@@ -33,10 +37,10 @@ const Stories = () => {
 
   return (
     <div className="story_container">
-      <div className="container">
+      <div className="inner_container">
         <Slider {...settings}>
           {data.map((d) => (
-            <div key={d.name} className="box">
+            <div key={d.name} className="success_box">
               <div className="image_container">
                 <img src={d.img} alt={d.name} className="profile-image" />
               </div>
@@ -58,27 +62,32 @@ const data = [
   {
     name: `Narendra Modi`,
     img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
   },
   {
     name: `Narendra Modi`,
     img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
   },
   {
     name: `Narendra Modi`,
     img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
   },
   {
     name: `Narendra Modi`,
     img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
   },
   {
     name: `Ellie Anderson`,
     img: `../assets/StoryImages/dhurvmc.jpeg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
   },
 ];
 

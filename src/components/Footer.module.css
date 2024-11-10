@@ -10,7 +10,7 @@
 }
 
 .upper_box {
-  height: 80%;
+  height: 90%;
   background-color: #10451d;
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@
 
 
 .lower_box {
-  height: 20%;
+  height: 10%;
   color: aliceblue;
   background-color: black;
   text-align: center;
@@ -52,4 +52,28 @@
   justify-content: center;
  align-items: center;
  font-size: x-small;
+}
+
+@media (max-width: 600px){
+  .footer_container {
+    height: 45vh;
+    padding: 10px ;
+  }
+  .footer_box {
+    height: calc(45vh - 20px);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .upper_box{
+    flex-direction: column;
+  }
+  .college_name h2 {
+    font-size:x-small;
+  }
+
+  .lower_box {
+    height: 10%;
+    color: aliceblue;
+    font-size:x-small;
+  }
 }

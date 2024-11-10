@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #208b3a;
+  background-color: #ffffff;
   height: 25vh;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .donation_container h1{
@@ -32,3 +34,10 @@
   transform: scale(1.2);
 } 
 
+@media (max-width: 600px){
+  .donation_container h1{
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+  
