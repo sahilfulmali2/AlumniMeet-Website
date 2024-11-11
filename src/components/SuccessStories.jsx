@@ -37,7 +37,9 @@ const Stories = () => {
 
   return (
     <div className="story_container">
+       <h1>Success Stories</h1>
       <div className="inner_container">
+       
         <Slider {...settings}>
           {data.map((d) => (
             <div key={d.name} className="success_box">

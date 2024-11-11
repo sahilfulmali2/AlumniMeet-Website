@@ -1,4 +1,5 @@
 import React from "react";
+import collegeLogo from "../assets/college_logo.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
           {/* image */}
           <div className="flex basis-[90%]">
             <img
-              src="src\assets\college_logo.png"
+              src={collegeLogo}
               alt=""
               className="w-[70px] h-[70px] mr-1 sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px] lg:w-[110px] lg:h-[110px] xl:w-[120px] xl:h-[120px] sm:mr-2"
             />
