@@ -1,17 +1,17 @@
 import React from "react";
-import collegeLogo from "../assets/college_logo.png";
+import collegeLogo from "../../assets/college_logo.png";
 
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-col bg-[#00ab7b] p-[12px] pb-0 items-center w-full ">
+      <div className="flex flex-col bg-[#17632a] p-[12px] pb-0 items-center w-full">
         <div className="flex justify-between w-full">
           {/* image */}
           <div className="flex basis-[90%]">
             <img
               src={collegeLogo}
               alt=""
-              className="w-[70px] h-[70px] mr-1 sm:w-[70px] sm:h-[70px] md:w-[90px] md:h-[90px] lg:w-[110px] lg:h-[110px] xl:w-[120px] xl:h-[120px] sm:mr-2"
+              className="w-[50px] h-[50px] mr-1 sm:w-[70px] sm:h-[90px] md:w-[90px] md:h-[90px] lg:w-[110px] lg:h-[110px] xl:w-[120px] xl:h-[120px] sm:mr-2"
             />
 
             {/* text */}
@@ -34,8 +34,6 @@ const Navbar = () => {
               LOGIN
             </button>
           </div>
-    
-
         </div>
 
         {/* navigation menu */}

@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import collegeLogo from "../assets/college_logo.png";
+import collegeLogo from "../../assets/college_logo.png";
 const Footer = () => {
   
 
@@ -17,7 +17,7 @@ const Footer = () => {
               www.gcoea.ac.in
             </a>
             <div className={styles.icons}>
-              <p> logos</p>
+              <p>logos</p>
             </div>
           </div>
         </div>

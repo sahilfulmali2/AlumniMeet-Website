@@ -1,25 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Donation from './components/Donation-Section';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Dangdu from './components/Dangdu';
-import ImageSlider from './components/imageslider2';
-import Stories from './components/SuccessStories';
-import Footer from './components/Footer';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Homepage from "./components/Homepage/Homepage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Registration from "./components/Registration/Registration";
+import "./index.css";
 
-
-import './index.css'
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar/>
-    <Hero></Hero>
-    <Dangdu></Dangdu>
-    <ImageSlider/>
-    <Stories/>
-    <Donation/>
-    <Footer/>
-  </React.StrictMode>,
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/register" element={<Registration/>} />
+      </Routes>
+    </Router>
+  </React.StrictMode>
 );

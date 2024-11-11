@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-      <div className='flex flex-col bg-[#097855] pt-2 pb-2 h-[47vh] sm:h-[70vh] overflow-hidden'>
+      <div className='flex flex-col bg-[#17632a] pt-2 pb-2 h-[47vh] sm:h-[70vh] overflow-hidden  '>
         {/* image */}
         <div className='w-full h-[50%] bg-red-700'>
             

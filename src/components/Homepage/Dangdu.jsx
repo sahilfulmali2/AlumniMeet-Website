@@ -1,10 +1,10 @@
 import React from 'react'
- 
+
 const Dangdu = () => {
   return (
     <div>
       <div className='flex justify-center items-center h-[30vh] sm:h-[50vh] p-5 sm:p-10'>
-        <div className='w-full h-full flex justify-around items-center bg-[#52ba99] text-red-800 font-semibold sm:p-7 p-3'>
+        <div className='w-full h-full flex justify-around items-center bg-[#17632a] text-red-800 font-semibold sm:p-7 p-3'>
             <div className='w-[45%] bg-white h-[100%]'>                
                 img
             </div>
