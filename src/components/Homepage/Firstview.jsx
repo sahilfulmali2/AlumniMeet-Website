@@ -1,0 +1,31 @@
+import React from 'react';
+import admin from "../../assets/admin.jpg";
+import styles from "./Firstview.module.css";
+
+const Hero = () => {
+  return (
+    
+      <div className={styles.heroContainer}>
+        
+        <div className={styles.imageContainer}>
+          <img src={admin} alt="" />
+        </div>
+
+        <div className={styles.textContainer}>
+          <div className={styles.textInnerContainer}>
+            <h1 className={styles.heading}>
+              WELCOME TO THE <br /> ALUMINI ASSOCIATION GCOEA
+            </h1>
+            <p className={styles.description}>
+              A registered body of the Alumni members of the Government College
+              of Engineering in Amravati where you connect with fellow members
+              and experience the growing spirit of GCOEA
+            </p>
+          </div>
+        </div>
+      </div>
+    
+  );
+}
+
+export default Hero;

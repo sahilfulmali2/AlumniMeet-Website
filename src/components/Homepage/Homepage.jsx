@@ -1,7 +1,7 @@
 import React from "react";
 import Donation from "./Donation-Section";
 import Navbar from "./Navbar";
-import Hero from "./Hero";
+import Firstview from "./Firstview";
 import Dangdu from "./Dangdu";
 import ImageSlider from "./imageslider2";
 import Stories from "./SuccessStories";
@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
     <>
       <Navbar />
-      <Hero></Hero>
+      <Firstview/>
       <Dangdu></Dangdu>
       <ImageSlider />
       <Stories />
