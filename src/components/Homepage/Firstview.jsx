@@ -1,5 +1,5 @@
 import React from 'react';
-import admin from "../../assets/admin.jpg";
+import admin from "../../assets/admin.webp";
 import styles from "./Firstview.module.css";
 
 const Hero = () => {
