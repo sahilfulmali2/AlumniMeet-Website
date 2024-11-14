@@ -6,7 +6,7 @@
   background-color: #17632a;
   padding: 20px;
   height: 60vh;
-  
+  background-color: #b91c1c;
   overflow: hidden;
 }
 
@@ -59,8 +59,9 @@
   .heroContainer {
     flex-direction: column;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     padding: 5px;
+    
   }
 
   .imageContainer {
