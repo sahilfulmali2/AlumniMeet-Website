@@ -70,6 +70,7 @@ body {
   height: 10%;
   font-size: 3rem;
   text-align: center;
+  font-weight: 700;
 }
 
 .container {
@@ -80,15 +81,15 @@ body {
 }
 
 .swiper_container {
-  max-width: 80vw; /* Limits width to 80% of the viewport */
+  max-width: 90vw; 
   height: auto;
   padding: 1rem 0;
   position: relative;
-  margin: 0; /* Centers the carousel */
+  margin: 0; 
 }
 
 .swiper-slide {
-  width: 100%;
+  width: 50%;
   height: 50vh;
   position: relative;
   display: flex;
@@ -96,7 +97,7 @@ body {
   align-items: center;
 }
 .swiper-slide img {
-  width: 90%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2rem;

@@ -4,13 +4,13 @@ import "swiper/css";
 import "swiper/css/bundle";
 
 import { EffectCoverflow, Pagination, Navigation ,Autoplay  } from "swiper/modules";
-import slide_image_1 from "../../assets/SliderImages/1.jpg";
-import slide_image_2 from "../../assets/SliderImages/2.jpg";
-import slide_image_3 from "../../assets/SliderImages/3.jpg";
-import slide_image_4 from "../../assets/SliderImages/4.jpg";
-import slide_image_5 from "../../assets/SliderImages/5.jpg";
-import slide_image_6 from "../../assets/SliderImages/6.jpg";
-import slide_image_7 from "../../assets/SliderImages/7.jpg";
+import slide_image_1 from "../../assets/SliderImages/tank.webp";
+import slide_image_2 from "../../assets/SliderImages/entc.webp";
+import slide_image_3 from "../../assets/SliderImages/cse.webp";
+import slide_image_4 from "../../assets/SliderImages/mech.webp";
+import slide_image_5 from "../../assets/SliderImages/studentssection.webp";
+import slide_image_6 from "../../assets/SliderImages/workshop.webp";
+import slide_image_7 from "../../assets/SliderImages/clg1.webp";
 
 
 const slideImages = [
