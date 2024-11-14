@@ -1,0 +1,82 @@
+.container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #17632a;
+  padding: 10px;
+}
+.inner {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container a h2{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  color: blue;
+}
+.heading {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
+  color: rgb(249, 97, 30);
+  margin: 10px 0px;
+  font-size: 2rem;
+  padding-bottom: 9px;
+}
+
+.content {
+  width: 70%;
+  text-align: justify;
+}
+
+.paragraph {
+  color: rgb(51, 51, 51);
+  margin: 0 0 20px 0;
+  line-height: 0.85cm;
+}
+.content {
+  color: rgb(51, 51, 51);
+}
+.list {
+  color: rgb(51, 51, 51);
+  margin: 10px 0 15px;
+  padding-left: 30px;
+}
+
+.listItem {
+  margin-bottom: 15px;
+  list-style-type: circle;
+}
+
+.finalParagraph {
+  color: rgb(51, 51, 51);
+  margin: 0 0 20px 0;
+  line-height: 0.85cm;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    color: rgb(249, 97, 30);
+    margin: 10px 0px;
+    font-size: 1.3rem;
+  }
+  .content {
+    width: 85%;
+  }
+
+  .paragraph {
+    color: rgb(51, 51, 51);
+    margin: 0 0 20px 0;
+    line-height: 0.65cm;
+  }
+
+  .list {
+    margin: 10px 0 15px 0;
+    padding-left: 25px;
+  }
+
+  .finalParagraph {
+    line-height: 0.65cm;
+  }
+}

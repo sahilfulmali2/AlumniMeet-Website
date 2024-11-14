@@ -11,9 +11,7 @@ const Navbar = () => {
           <img src={collegeLogo} alt="LOGO" className={styles.logo} />
 
           <div className={styles.textContainer}>
-            <h1 className={styles.title}>
-              GCoEA AMRAVATI - ALUMINI ASSOCIATION
-            </h1>
+            <h1 className={styles.title}>GCoEA - ALUMINI ASSOCIATION</h1>
             <h2 className={styles.subtitle}>
               GOVERNMENT COLLEGE OF ENGINEERING, AMRAVATI
             </h2>
@@ -33,13 +31,13 @@ const Navbar = () => {
       <div className={styles.navMenu}>
         <ul className={styles.navList}>
           <li>
-            <a href="">ABOUT US</a>
+            <Link to="/about">ABOUT US</Link>
           </li>
           <li>
             <a href="">ALUMINI FUNDS</a>
           </li>
           <li>
-            <a href="">ACHIEVERS</a>
+            <Link to="/acheivers">ACHIEVERS</Link>
           </li>
           <li>
             <a href="">NEWSROOM</a>

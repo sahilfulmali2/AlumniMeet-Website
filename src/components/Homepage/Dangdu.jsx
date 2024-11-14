@@ -1,7 +1,7 @@
 import React from 'react';
 import dangdu from '../../assets/dangdu.webp';
 import styles from './Dangdu.module.css';
-
+import { Link } from 'react-router-dom';
 const Dangdu = () => {
   return (
     <div>
@@ -16,7 +16,9 @@ const Dangdu = () => {
 
             <p className={styles.description}>ALUMNI MEET OF BATCH 1999 <br /> JOIN US TO RELIVE THE COLLEGE MEMORY</p>
 
-            <button className={styles.button}><a href="/register">REGISTER NOW</a></button>
+            <button className={styles.button}><a href="/register"><Link to="/register">
+              <h2>REGISTER</h2>
+            </Link></a></button>
           </div>
         </div>
       </div>
