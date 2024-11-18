@@ -10,7 +10,6 @@ import Footer from "./Footer";
 const Homepage = () => {
   return (
     <>
-      <Navbar />
       <Firstview/>
       <Dangdu></Dangdu>
       <ImageSlider />

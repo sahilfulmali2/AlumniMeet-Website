@@ -11,7 +11,7 @@ const Navbar = () => {
           <img src={collegeLogo} alt="LOGO" className={styles.logo} />
 
           <div className={styles.textContainer}>
-            <h1 className={styles.title}>GCoEA - ALUMINI ASSOCIATION</h1>
+            <h1 className={styles.title}>Global Alumni Meet - 2024</h1>
             <h2 className={styles.subtitle}>
               GOVERNMENT COLLEGE OF ENGINEERING, AMRAVATI
             </h2>
@@ -24,12 +24,15 @@ const Navbar = () => {
               <h2>REGISTER</h2>
             </Link>
           </button>
-          <button className={styles.button}>LOGIN</button>
+          
         </div>
       </div>
 
       <div className={styles.navMenu}>
         <ul className={styles.navList}>
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
           <li>
             <Link to="/about">ABOUT US</Link>
           </li>
