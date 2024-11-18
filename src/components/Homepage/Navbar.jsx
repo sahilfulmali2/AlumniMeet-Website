@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <div className={styles.buttonContainer}>
           <button className={styles.button}>
-            <Link to="/register">
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSecuQSceghEIp5ipT1ySa_OeUAzzc0kCqVQFJN9imcRSd-o2w/viewform" target="_blank">
               <h2>REGISTER</h2>
             </Link>
           </button>
