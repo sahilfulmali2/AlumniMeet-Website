@@ -96,6 +96,9 @@
   .title {
     font-size: 1.1rem;
   }
+  .textContainer{
+    margin-right: 10px;
+  }
 
   .subtitle {
     font-size: 1rem;
@@ -117,7 +120,7 @@
   }
 
   .navMenu {
-    width: 90%;
+    width: 100%;
     padding: 6px;
     background-color: #ffffff;
     margin-top: 5px;
@@ -126,9 +129,10 @@
 
   .navList {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     font-weight: 650;
     font-size: 0.9rem;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 }
