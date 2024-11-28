@@ -59,11 +59,11 @@ body {
 }
 
 .main_container {
-  height: 70vh;
+  height: 480px;
   width: 100%;
   display: flex;
   margin: 0;
-  background-color: #67695f;
+  background-color: #F3F3E0;
   align-items: center;
   flex-direction: column;
 }
@@ -72,6 +72,7 @@ body {
   font-size: 3rem;
   text-align: center;
   font-weight: 700;
+  margin-top: 10px;
 }
 
 .container {
@@ -166,7 +167,7 @@ body {
 
   .main_container {
     height: 50vh;
-    background-color: #454740;
+    
   }
   .container {
     width: 100%;
@@ -176,6 +177,7 @@ body {
     height: 10%;
     font-size: 25px;
     font-weight: 600;
+    
   }
   .swiper_container {
     height: 85%;
