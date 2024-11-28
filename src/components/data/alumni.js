@@ -15,6 +15,7 @@ export const alumnidata = [
     image: "./alumniphotos/dhruv.webp",
     about: "Why is Dhruv Rathee often called the German Shepherd of YouTubeBecause just like a German Shepherd, hes always barking at every questionable statistic, sniffing out misinformation, and herding his viewers toward facts! Instead of chasing after bones, hes chasing down baseless claims — and trust me, his bite is as sharp as his fact-checksDhruv Rathees riends joke that hes a German Shepherd… but whyBecause hes loyal to the truth, and every time he spots some misinformation, he goes into full watchdog mode. If a news headline even hints at inaccuracy, Dhruvs right there, barking, Who let this out without a source? By the end, hes practically chasing down every bit of “fake news” on the internet, tail wagging with excitement", 
   },
+  
   {
     name: "Rahul Gandhi",
     batch: "2020",
