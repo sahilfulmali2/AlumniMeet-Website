@@ -4,7 +4,7 @@
   align-items: center;
   height: 450px;
   padding: 7px;
-  background-color: #F3F3E0;
+  background-color: #F3F3E0;;
 }
 
 .wrapper {
@@ -14,7 +14,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #67695f;
+  background-color: #454740;
   color: #202020;
   font-weight: 600;
   padding: 3px;

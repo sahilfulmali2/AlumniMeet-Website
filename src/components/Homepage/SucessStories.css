@@ -1,7 +1,7 @@
 /* SuccessStories.css */
 
 .story_container {
-  background-color: rgb(255, 255, 255);
+  background-color: #F3F3E0;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@
 
 @media (max-width: 600px) {
   .story_container {
-    background-color: rgb(255, 255, 255);
+    
     height: 60vh;
     display: flex;
     flex-direction: column;
