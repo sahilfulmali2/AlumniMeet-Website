@@ -62,7 +62,7 @@ body {
   width: 100%;
   display: flex;
   margin: 0;
-  background-color: #208b3a;
+  background-color: #67695f;
   align-items: center;
   flex-direction: column;
 }
@@ -165,7 +165,7 @@ body {
 
   .main_container {
     height: 50vh;
-    background-color: #17632a;
+    background-color: #454740;
   }
   .container {
     width: 100%;

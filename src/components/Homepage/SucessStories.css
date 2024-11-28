@@ -28,7 +28,7 @@
 }
 
 .success_box {
-  background-color: #17632a;
+  background-color: #454740;
   margin-top: 10px;
   margin-bottom: 10px;
   height: 80%;
@@ -41,12 +41,12 @@
 }
 
 .success_box .image_container {
+  margin-top: 10px;
   height: 60%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #6EDE8A; */
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }

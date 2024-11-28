@@ -22,7 +22,7 @@
 }
 
 .imageContainer {
-  width: 45%;
+  width: 50%;
   height: 100%;
 }
 .imageContainer img {
@@ -95,16 +95,17 @@
   }
   .content {
     width: 95%;
+    height: 40%;
   }
   .heading {
-    font-size: 3.3rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 1;
     margin-bottom: 5px;
   }
 
   .description {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 600;
   }
 }
