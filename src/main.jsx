@@ -8,6 +8,7 @@ import "./index.css";
 import AboutUs from "./components/Navbar Components/About_Us";
 import Acheivers from "./components/Navbar Components/Acheivers";
 import Navbar from "./components/Homepage/Navbar";
+import Footer from "./components/Homepage/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/acheivers" element={<Acheivers/>} />
       </Routes>
+      <Footer/>
     </Router>
     
   </React.StrictMode>

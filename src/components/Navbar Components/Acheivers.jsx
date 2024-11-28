@@ -4,6 +4,7 @@ import styles from "./Acheivers.module.css";
 import { alumnidata } from "../data/alumni";
 
 export default function Acheivers() {
+  
   return (
     <div className={styles.container}>
       <div className={styles.inner}>

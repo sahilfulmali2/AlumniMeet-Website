@@ -13,16 +13,17 @@ const Dangdu = () => {
 
           <div className={styles.content}>
             <h1 className={styles.heading}>GLOBAL ALUMNI MEET 2024</h1>
-
-            <p className={styles.description}>
+            <h1 style={{fontSize:"2.5rem",marginBottom:"10px"}}>26th and 27th December 2024</h1>
+            {/* <p className={styles.description}>
               ALUMNI MEET OF GCOEA <br /> JOIN US TO RELIVE THE COLLEGE
               MEMORY
-            </p>
+            </p> */}
 
             <button className={styles.button}>
             <Link to="https://docs.google.com/forms/d/e/1FAIpQLSecuQSceghEIp5ipT1ySa_OeUAzzc0kCqVQFJN9imcRSd-o2w/viewform" target="_blank">
               <h2>REGISTER</h2>
             </Link>
+            {/* <Link to="#explore">Explore</Link> */}
           </button>
           </div>
         </div>

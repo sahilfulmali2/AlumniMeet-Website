@@ -6,7 +6,7 @@ const Donation = () => {
   return (
     <div className={styles.donation_container}>
       <h1>Want to Give Back to College</h1>
-      <Link to="/register">
+      <Link to="#">
         <h2>Donate Here</h2>
       </Link>
     </div>

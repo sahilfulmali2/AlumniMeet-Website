@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 import collegeLogo from "../../assets/college_logo.png";
 const Footer = () => {
-  
+
 
   return (
     <div className={styles.footer_container}>
@@ -11,14 +11,16 @@ const Footer = () => {
           <div className={styles.college_name}>
             <h1>Government College of Engineering</h1>
             <h2>VMV Road, Kathora Naka, Amravati-444604</h2>
-            <a href="">info@gcoea.ac.in</a>
-            <a href="https://www.gcoea.ac.in/" target="blank">
-              {" "}
-              www.gcoea.ac.in
-            </a>
-            <div className={styles.icons}>
-              <p>logos</p>
+            <div className={styles.links}>
+              <span style={{display:"flex",justifyContent:"space-between",gap:"10px"}}> Contact Us <a href="mailto:info@gcoea.ac.in">info@gcoea.ac.in</a></span>
+              <span style={{display:"flex",justifyContent:"space-between",gap:"10px"}}> Visit <a href="https://www.gcoea.ac.in/" target="blank">
+                {" "}
+                www.gcoea.ac.in
+              </a></span>
             </div>
+            {/* <div className={styles.icons}>
+              <p>logos</p>
+            </div> */}
           </div>
         </div>
         <div className={styles.lower_box}>
