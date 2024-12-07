@@ -13,7 +13,7 @@ const Homepage = () => {
       <Firstview/>
       <Dangdu></Dangdu>
       <ImageSlider />
-      <Stories />
+      {/* <Stories /> */}
       <Donation />
       <Footer />
     </>
