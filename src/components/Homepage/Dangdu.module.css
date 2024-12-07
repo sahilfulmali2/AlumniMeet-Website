@@ -22,7 +22,7 @@
 }
 
 .imageContainer {
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 .imageContainer img {
@@ -53,7 +53,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 45%;
+  width: 55%;
   text-align: center;
   
 }

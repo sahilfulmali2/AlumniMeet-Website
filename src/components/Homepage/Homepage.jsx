@@ -10,12 +10,11 @@ import Footer from "./Footer";
 const Homepage = () => {
   return (
     <>
-      <Firstview/>
       <Dangdu></Dangdu>
+      <Firstview/>
       <ImageSlider />
       {/* <Stories /> */}
       <Donation />
-      <Footer />
     </>
   );
 };

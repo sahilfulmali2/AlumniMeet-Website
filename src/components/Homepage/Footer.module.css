@@ -16,10 +16,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 .upper_box img {
-  height: 100px;
+  height: 110px;
   
 }
 .college_name {
@@ -52,6 +52,13 @@
   justify-content: center;
  align-items: center;
  font-size: x-small;
+}
+
+.links{
+  font-size: 13px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
 }
 
 @media (max-width: 600px){

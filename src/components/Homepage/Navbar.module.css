@@ -136,3 +136,9 @@
     /* margin-top: 20px; */
   }
 }
+
+@media (max-width: 600px){
+  .navMenu{
+    width: 100%;
+  }
+}

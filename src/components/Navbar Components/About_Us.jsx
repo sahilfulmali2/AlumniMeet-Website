@@ -65,11 +65,7 @@ export default function AboutUs() {
             honoring the institute as a Premium Category college.
           </p>
         </div>
-        <a href="/">
-          <Link to="/">
-            <h2>Back to Home</h2>
-          </Link>
-        </a>
+        
       </div>
     </div>
   );

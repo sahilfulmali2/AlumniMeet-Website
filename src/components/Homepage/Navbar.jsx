@@ -37,16 +37,16 @@ const Navbar = () => {
             <Link to="/about">ABOUT US</Link>
           </li>
           <li>
-            <a href="">ALUMINI FUNDS</a>
+            <a href="#">ALUMINI FUNDS</a>
           </li>
           <li>
             <Link to="/acheivers">ACHIEVERS</Link>
           </li>
           <li>
-            <a href="">NEWSROOM</a>
+            <a href="#">NEWSROOM</a>
           </li>
           <li>
-            <a href="">MORE</a>
+            <a href="#">MORE</a>
           </li>
         </ul>
       </div>
