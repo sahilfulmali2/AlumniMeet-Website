@@ -49,8 +49,9 @@ const Stories = () => {
 
               <div className="content">
                 <p className="name">{d.name}</p>
-                <p className="review">{d.story}</p>
-                <button className="read-more-button">Read More</button>
+                <p className="review">{d.post}</p>
+                <p className="review">{d.company}</p>
+                {/* <button className="read-more-button">Read More</button> */}
               </div>
             </div>
           ))}
@@ -62,34 +63,41 @@ const Stories = () => {
 
 const data = [
   {
-    name: `Narendra Modi`,
-    img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
+    name: `Dr. Ravindra T. Borkar`,
+    img: `/alumniphotos/ravindraborkar.webp`,
+    post: `MGAHV Central University Wardha `,
+    company: ` `,
   },
   {
-    name: `Narendra Modi`,
-    img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
+    name: `Shri Abhijit Deshpande`,
+    img: `/alumniphotos/Abhijit_Deshpande.webp`,
+    post: `General Manager(Projects)`,
+    company: ` Govt. of Maharashtra M/S B.G.Shirke Const.Tech.Pvt.Ltd.`,
   },
   {
-    name: `Narendra Modi`,
-    img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
+    name: `Shri Parag Gulhane`,
+    img: `/alumniphotos/Parag _Gulhane.webp`,
+    post: `Director`,
+    company: `MakerInMe Tehnologies Pvt Ltd`,
   },
   {
-    name: `Narendra Modi`,
-    img: `https://www.pmindia.gov.in/wp-content/uploads/2022/12/twitter_2.jpg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
+    name: `Shri Nitin Nandanwar`,
+    img: `/alumniphotos/Nitin_Nandanwar.webp`,
+    post: `Asst General Manager`,
+    company: `Tata Consulting Engineer`,
+    
   },
   {
-    name: `Ellie Anderson`,
-    img: `../assets/StoryImages/dhurvmc.jpeg`,
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua`,
+    name: `Shri Chirag Sonchal`,
+    img: `/alumniphotos/chirags.webp`,
+    post: `Senior Manager`,
+    company: `John Deere India Pvt. Ltd`,
+  },
+  {
+    name: `Shri Prasanna Shanbhag`,
+    img: `/alumniphotos/pshanbag.webp`,
+    post: `Sr Software Engineering Manager`,
+    company: `Medtronic, Los Angeles`,
   },
 ];
 

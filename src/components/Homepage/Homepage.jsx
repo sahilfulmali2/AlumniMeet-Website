@@ -6,14 +6,17 @@ import Dangdu from "./Dangdu";
 import ImageSlider from "./imageslider2";
 import Stories from "./SuccessStories";
 import Footer from "./Footer";
+import Schedule from "./Schedule";
+
 
 const Homepage = () => {
   return (
     <>
       <Dangdu></Dangdu>
       <Firstview/>
+      <Schedule/>
       <ImageSlider />
-      {/* <Stories /> */}
+      <Stories />
       <Donation />
     </>
   );
