@@ -8,8 +8,8 @@ const Schedule = () => {
         Schedule
       </h2>
       <div className={styles.imageContainer}>
-        <img src="/schedule/11.webp" alt="" />
         <img src="/schedule/2.webp" alt="" />
+        <img src="/schedule/11.webp" alt="" />
       </div>
     </div>
 
