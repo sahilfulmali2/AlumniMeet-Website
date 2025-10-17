@@ -22,7 +22,7 @@ const Registration = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/register", formData);
+      const res = await axios.post(" https://alumnimeet-website.onrender.com/register", formData);
       alert("Registration successful!");
       console.log(res.data);
     } catch (err) {
