@@ -24,7 +24,7 @@ connectDB();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://Alumni-frontend.vercel.app' ],
+    'https://alumni-meet-gcoea.vercel.app/' ],
     credentials: true,})
 );
 
